@@ -1,0 +1,8 @@
+<h1> My tasks </h1>
+
+<div>
+  <% num = 0 %>
+  <% @tasks.each do |task| %>
+  <label for="task"><% task.title %></label><input type="checkbox">
+  <% end %>
+</div>
